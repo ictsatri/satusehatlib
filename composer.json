@@ -1,0 +1,23 @@
+{
+    "name": "satusehat/integration",
+    "description": "karya anak bangsa",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "satusehat\\integration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ictsatri",
+            "email": "triwaskito.ictsa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.5.8",
+        "phpseclib/phpseclib": "^3.0"
+    }
+}
